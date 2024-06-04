@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+  }
+  
+  .sidebar {
+    background-color: #f0f0f0;
+    padding: 20px;
+    width: 250px;
+    height: 3000px;
+    text-align: center;
+  }
+  
+  .menu {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 100px;
+    text-align: left;
+  }
+  
+  .menu li {
+    margin-bottom: 10px;
+    line-height: 30px;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  .menu li a.bold {
+    font-weight: bold;
+  }
