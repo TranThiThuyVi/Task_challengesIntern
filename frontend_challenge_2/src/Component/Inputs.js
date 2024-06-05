@@ -7,6 +7,7 @@ import InputIcon from './input-component/InputIcon.component';
 import InputSize from './input-component/InputSize.component';
 import InputFullwidth from './input-component/InputFullwidth.component';
 import InputMultiline from './input-component/InputMultiline.component';
+import InputPassword from './input-component/InputPassword.component';
 import '../assets/css/input.css';
 
 const Inputs = () => {
@@ -21,6 +22,7 @@ const Inputs = () => {
             <InputSize />
             <InputFullwidth />
             <InputMultiline />
+            <InputPassword />
         </>
     );
 };
