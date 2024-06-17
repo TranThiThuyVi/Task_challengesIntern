@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 
 const WeatherDays = ({ data, onDaySelect }) => {
-    const forecast = data.list.slice(1, 6); // Lấy ra dự báo từ index 1 đến 5
-    const [selectedDay, setSelectedDay] = useState(null); // State để lưu trữ ngày được chọn
+    const forecast = data.list.slice(1, 6); 
+    const [selectedDay, setSelectedDay] = useState(null);
 
     const getDayLabel = (index) => {
         if (index === 0) return "Tomorrow";
@@ -12,8 +12,8 @@ const WeatherDays = ({ data, onDaySelect }) => {
     };
 
     const handleDayClick = (day) => {
-        setSelectedDay(day); // Cập nhật state khi người dùng chọn ngày
-        onDaySelect(day); // Gọi hàm callback để xử lý khi ngày được chọn
+        setSelectedDay(day); 
+        onDaySelect(day); 
     };
 
     return (
